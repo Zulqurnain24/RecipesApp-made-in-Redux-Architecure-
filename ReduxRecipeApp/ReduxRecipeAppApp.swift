@@ -11,7 +11,7 @@ import SwiftUI
 struct ReduxRecipeAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MealContentView()
         }
     }
 }

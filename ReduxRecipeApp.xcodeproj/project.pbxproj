@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		64F1A83429E2DC990026B6FF /* ReduxRecipeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A83329E2DC990026B6FF /* ReduxRecipeAppApp.swift */; };
-		64F1A83629E2DC990026B6FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A83529E2DC990026B6FF /* ContentView.swift */; };
+		64F1A83629E2DC990026B6FF /* MealContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A83529E2DC990026B6FF /* MealContentView.swift */; };
 		64F1A83829E2DC990026B6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F1A83729E2DC990026B6FF /* Assets.xcassets */; };
 		64F1A83B29E2DC990026B6FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F1A83A29E2DC990026B6FF /* Preview Assets.xcassets */; };
+		64F1A84329E2DCB60026B6FF /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 64F1A84229E2DCB60026B6FF /* ReSwift */; };
+		64F1A84D29E2FA490026B6FF /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A84C29E2FA490026B6FF /* MealDetailView.swift */; };
+		64F1A84F29E2FA640026B6FF /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A84E29E2FA640026B6FF /* ImageLoader.swift */; };
+		64F1A85129E2FA940026B6FF /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A85029E2FA940026B6FF /* RemoteImage.swift */; };
+		64F1A85329E2FAB20026B6FF /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A85229E2FAB20026B6FF /* MealViewModel.swift */; };
+		64F1A85529E2FACC0026B6FF /* mealReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A85429E2FACC0026B6FF /* mealReducer.swift */; };
+		64F1A85729E2FAE50026B6FF /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A85629E2FAE50026B6FF /* Store.swift */; };
+		64F1A85929E2FAFA0026B6FF /* MealAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A85829E2FAFA0026B6FF /* MealAction.swift */; };
+		64F1A85D29E2FB210026B6FF /* Appstate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A85C29E2FB210026B6FF /* Appstate.swift */; };
+		64F1A85F29E2FB500026B6FF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A85E29E2FB500026B6FF /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		64F1A83029E2DC990026B6FF /* ReduxRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F1A83329E2DC990026B6FF /* ReduxRecipeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxRecipeAppApp.swift; sourceTree = "<group>"; };
-		64F1A83529E2DC990026B6FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F1A83529E2DC990026B6FF /* MealContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealContentView.swift; sourceTree = "<group>"; };
 		64F1A83729E2DC990026B6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64F1A83A29E2DC990026B6FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F1A84C29E2FA490026B6FF /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		64F1A84E29E2FA640026B6FF /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		64F1A85029E2FA940026B6FF /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		64F1A85229E2FAB20026B6FF /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		64F1A85429E2FACC0026B6FF /* mealReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealReducer.swift; sourceTree = "<group>"; };
+		64F1A85629E2FAE50026B6FF /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		64F1A85829E2FAFA0026B6FF /* MealAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealAction.swift; sourceTree = "<group>"; };
+		64F1A85C29E2FB210026B6FF /* Appstate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appstate.swift; sourceTree = "<group>"; };
+		64F1A85E29E2FB500026B6FF /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F1A84329E2DCB60026B6FF /* ReSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +71,15 @@
 		64F1A83229E2DC990026B6FF /* ReduxRecipeApp */ = {
 			isa = PBXGroup;
 			children = (
+				64F1A85B29E2FB150026B6FF /* Appstate */,
+				64F1A84B29E2FA170026B6FF /* Subsystems */,
+				64F1A84A29E2FA100026B6FF /* Views */,
+				64F1A84929E2FA090026B6FF /* ViewModel */,
+				64F1A84829E2F9EB0026B6FF /* Store */,
+				64F1A84729E2F9E40026B6FF /* Reducer */,
+				64F1A84629E2F9DF0026B6FF /* Action */,
+				64F1A84429E2F9CC0026B6FF /* Model */,
 				64F1A83329E2DC990026B6FF /* ReduxRecipeAppApp.swift */,
-				64F1A83529E2DC990026B6FF /* ContentView.swift */,
 				64F1A83729E2DC990026B6FF /* Assets.xcassets */,
 				64F1A83929E2DC990026B6FF /* Preview Content */,
 			);
@@ -65,6 +92,80 @@
 				64F1A83A29E2DC990026B6FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64F1A84429E2F9CC0026B6FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A85E29E2FB500026B6FF /* Meal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64F1A84529E2F9D50026B6FF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A84E29E2FA640026B6FF /* ImageLoader.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		64F1A84629E2F9DF0026B6FF /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A85829E2FAFA0026B6FF /* MealAction.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		64F1A84729E2F9E40026B6FF /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A85429E2FACC0026B6FF /* mealReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		64F1A84829E2F9EB0026B6FF /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A85629E2FAE50026B6FF /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		64F1A84929E2FA090026B6FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A85229E2FAB20026B6FF /* MealViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64F1A84A29E2FA100026B6FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A83529E2DC990026B6FF /* MealContentView.swift */,
+				64F1A84C29E2FA490026B6FF /* MealDetailView.swift */,
+				64F1A85029E2FA940026B6FF /* RemoteImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64F1A84B29E2FA170026B6FF /* Subsystems */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A84529E2F9D50026B6FF /* Networking */,
+			);
+			path = Subsystems;
+			sourceTree = "<group>";
+		};
+		64F1A85B29E2FB150026B6FF /* Appstate */ = {
+			isa = PBXGroup;
+			children = (
+				64F1A85C29E2FB210026B6FF /* Appstate.swift */,
+			);
+			path = Appstate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +184,9 @@
 			dependencies = (
 			);
 			name = ReduxRecipeApp;
+			packageProductDependencies = (
+				64F1A84229E2DCB60026B6FF /* ReSwift */,
+			);
 			productName = ReduxRecipeApp;
 			productReference = 64F1A83029E2DC990026B6FF /* ReduxRecipeApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +215,9 @@
 				Base,
 			);
 			mainGroup = 64F1A82729E2DC980026B6FF;
+			packageReferences = (
+				64F1A84129E2DCB60026B6FF /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
 			productRefGroup = 64F1A83129E2DC990026B6FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +244,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F1A83629E2DC990026B6FF /* ContentView.swift in Sources */,
+				64F1A83629E2DC990026B6FF /* MealContentView.swift in Sources */,
+				64F1A84F29E2FA640026B6FF /* ImageLoader.swift in Sources */,
+				64F1A84D29E2FA490026B6FF /* MealDetailView.swift in Sources */,
+				64F1A85D29E2FB210026B6FF /* Appstate.swift in Sources */,
+				64F1A85F29E2FB500026B6FF /* Meal.swift in Sources */,
+				64F1A85729E2FAE50026B6FF /* Store.swift in Sources */,
+				64F1A85129E2FA940026B6FF /* RemoteImage.swift in Sources */,
+				64F1A85529E2FACC0026B6FF /* mealReducer.swift in Sources */,
+				64F1A85929E2FAFA0026B6FF /* MealAction.swift in Sources */,
+				64F1A85329E2FAB20026B6FF /* MealViewModel.swift in Sources */,
 				64F1A83429E2DC990026B6FF /* ReduxRecipeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +455,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64F1A84129E2DCB60026B6FF /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64F1A84229E2DCB60026B6FF /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64F1A84129E2DCB60026B6FF /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 64F1A82829E2DC980026B6FF /* Project object */;
 }
