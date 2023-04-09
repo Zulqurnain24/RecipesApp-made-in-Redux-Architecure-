@@ -49,7 +49,7 @@ struct MealDetailView: View {
                 VStack(alignment: .leading, spacing: 16) {
                     Text("Ingredients")
                         .font(.headline)
-                    var array = [meal.ingredient1, meal.ingredient2, meal.ingredient3, meal.ingredient4, meal.ingredient5, meal.ingredient6, meal.ingredient7, meal.ingredient8, meal.ingredient9, meal.ingredient10, meal.ingredient11, meal.ingredient12, meal.ingredient13, meal.ingredient14, meal.ingredient15, meal.ingredient16, meal.ingredient17, meal.ingredient18, meal.ingredient19, meal.ingredient20]
+                    let array = [meal.ingredient1, meal.ingredient2, meal.ingredient3, meal.ingredient4, meal.ingredient5, meal.ingredient6, meal.ingredient7, meal.ingredient8, meal.ingredient9, meal.ingredient10, meal.ingredient11, meal.ingredient12, meal.ingredient13, meal.ingredient14, meal.ingredient15, meal.ingredient16, meal.ingredient17, meal.ingredient18, meal.ingredient19, meal.ingredient20]
                     ForEach(array.filter({!($0?.isEmpty ?? true)}).compactMap({ element in
                         return element
                     }), id: \.self) { ingredient in

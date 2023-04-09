@@ -10,7 +10,7 @@ import ReSwift
 import SwiftUI
 
 struct MealContentView: View {
-    @ObservedObject var viewModel = MealViewModel()
+    @ObservedObject var viewModel = MealViewModel(networkManager: NetworkManager())
     
     var body: some View {
         NavigationView {
@@ -37,6 +37,6 @@ struct MealContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-      MealContentView(viewModel: MealViewModel())
+        MealContentView(viewModel: MealViewModel(networkManager: NetworkManager()))
     }
 }

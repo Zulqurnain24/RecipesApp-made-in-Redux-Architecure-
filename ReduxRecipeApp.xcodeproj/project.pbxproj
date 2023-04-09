@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27B2E2D929E35A5800FC50BE /* MealsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2E2D829E35A5800FC50BE /* MealsResponse.swift */; };
+		27B2E2DB29E35B8700FC50BE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2E2DA29E35B8700FC50BE /* NetworkManager.swift */; };
 		64F1A83429E2DC990026B6FF /* ReduxRecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A83329E2DC990026B6FF /* ReduxRecipeApp.swift */; };
 		64F1A83629E2DC990026B6FF /* MealContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A83529E2DC990026B6FF /* MealContentView.swift */; };
 		64F1A83829E2DC990026B6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F1A83729E2DC990026B6FF /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		27B2E2D829E35A5800FC50BE /* MealsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsResponse.swift; sourceTree = "<group>"; };
+		27B2E2DA29E35B8700FC50BE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		64F1A83029E2DC990026B6FF /* ReduxRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F1A83329E2DC990026B6FF /* ReduxRecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxRecipeApp.swift; sourceTree = "<group>"; };
 		64F1A83529E2DC990026B6FF /* MealContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				64F1A84E29E2FA640026B6FF /* ImageLoader.swift */,
+				27B2E2DA29E35B8700FC50BE /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				64F1A83629E2DC990026B6FF /* MealContentView.swift in Sources */,
 				64F1A84F29E2FA640026B6FF /* ImageLoader.swift in Sources */,
 				64F1A84D29E2FA490026B6FF /* MealDetailView.swift in Sources */,
+				27B2E2DB29E35B8700FC50BE /* NetworkManager.swift in Sources */,
 				64F1A85D29E2FB210026B6FF /* Appstate.swift in Sources */,
 				64F1A85F29E2FB500026B6FF /* Meal.swift in Sources */,
 				64F1A85729E2FAE50026B6FF /* Store.swift in Sources */,

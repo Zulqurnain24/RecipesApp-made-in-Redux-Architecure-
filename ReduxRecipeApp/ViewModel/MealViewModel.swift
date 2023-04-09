@@ -15,7 +15,10 @@ class MealViewModel: ObservableObject, StoreSubscriber {
     @Published var meals: [Meal] = []
     @Published var searchQuery: String = ""
 
-    init() {
+    let networkManager: Fetcheable
+    
+    init(networkManager: Fetcheable) {
+        self.networkManager = networkManager
         store.subscribe(self)
     }
 
@@ -29,15 +32,7 @@ class MealViewModel: ObservableObject, StoreSubscriber {
     func searchMeals() {
         store.dispatch(MealAction.search(query: searchQuery))
         if let url = URL(string: "https://www.themealdb.com/api/json/v1/1/search.php?s=\(searchQuery)") {
-            URLSession.shared.dataTask(with: url) { data, response, error in
-                guard let data = data else { return }
-                do {
-                    let result = try JSONDecoder().decode(MealsResponse.self, from: data)
-                    store.dispatch(MealAction.updateMeals(meals: result.meals))
-                } catch {
-                    print(error)
-                }
-            }.resume()
+            networkManager.searchMeals(url: url)
         }
     }
 }
