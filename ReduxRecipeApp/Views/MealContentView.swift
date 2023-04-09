@@ -9,10 +9,6 @@ import Combine
 import ReSwift
 import SwiftUI
 
-struct MealsResponse: Decodable {
-    let meals: [Meal]
-}
-
 struct MealContentView: View {
     @ObservedObject var viewModel = MealViewModel()
     

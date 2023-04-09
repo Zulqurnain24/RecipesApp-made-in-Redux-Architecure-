@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64F1A83429E2DC990026B6FF /* ReduxRecipeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A83329E2DC990026B6FF /* ReduxRecipeAppApp.swift */; };
+		27B2E2D929E35A5800FC50BE /* MealsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2E2D829E35A5800FC50BE /* MealsResponse.swift */; };
+		64F1A83429E2DC990026B6FF /* ReduxRecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A83329E2DC990026B6FF /* ReduxRecipeApp.swift */; };
 		64F1A83629E2DC990026B6FF /* MealContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F1A83529E2DC990026B6FF /* MealContentView.swift */; };
 		64F1A83829E2DC990026B6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F1A83729E2DC990026B6FF /* Assets.xcassets */; };
 		64F1A83B29E2DC990026B6FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F1A83A29E2DC990026B6FF /* Preview Assets.xcassets */; };
@@ -24,8 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27B2E2D829E35A5800FC50BE /* MealsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsResponse.swift; sourceTree = "<group>"; };
 		64F1A83029E2DC990026B6FF /* ReduxRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		64F1A83329E2DC990026B6FF /* ReduxRecipeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxRecipeAppApp.swift; sourceTree = "<group>"; };
+		64F1A83329E2DC990026B6FF /* ReduxRecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxRecipeApp.swift; sourceTree = "<group>"; };
 		64F1A83529E2DC990026B6FF /* MealContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealContentView.swift; sourceTree = "<group>"; };
 		64F1A83729E2DC990026B6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64F1A83A29E2DC990026B6FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -79,7 +81,7 @@
 				64F1A84729E2F9E40026B6FF /* Reducer */,
 				64F1A84629E2F9DF0026B6FF /* Action */,
 				64F1A84429E2F9CC0026B6FF /* Model */,
-				64F1A83329E2DC990026B6FF /* ReduxRecipeAppApp.swift */,
+				64F1A83329E2DC990026B6FF /* ReduxRecipeApp.swift */,
 				64F1A83729E2DC990026B6FF /* Assets.xcassets */,
 				64F1A83929E2DC990026B6FF /* Preview Content */,
 			);
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				64F1A85E29E2FB500026B6FF /* Meal.swift */,
+				27B2E2D829E35A5800FC50BE /* MealsResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,7 +257,8 @@
 				64F1A85529E2FACC0026B6FF /* mealReducer.swift in Sources */,
 				64F1A85929E2FAFA0026B6FF /* MealAction.swift in Sources */,
 				64F1A85329E2FAB20026B6FF /* MealViewModel.swift in Sources */,
-				64F1A83429E2DC990026B6FF /* ReduxRecipeAppApp.swift in Sources */,
+				64F1A83429E2DC990026B6FF /* ReduxRecipeApp.swift in Sources */,
+				27B2E2D929E35A5800FC50BE /* MealsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
