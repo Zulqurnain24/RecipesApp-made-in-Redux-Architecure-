@@ -65,6 +65,7 @@ struct Meal: Codable {
     case ingredient19 = "strIngredient19"
     case ingredient20 = "strIngredient20"
   }
+    
 }
 
 extension Meal: Equatable, Hashable {
